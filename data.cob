@@ -17,11 +17,14 @@
                                                                         會消失
        01  Age PIC S9(3) VALUE 100.                                     S數字有+-號
        01  MyID PIC X(10) VALUE 'A123456789'.                           x數字跟文字混合
+       01  testvalud PIC X(5).
 
        PROCEDURE DIVISION.                                              處理程序部
            DISPLAY "Hello, World!".
            DISPLAY MyName.
            DISPLAY Amount.
            DISPLAY Age .
+           MOVE ALL SPACE TO testvalud .
+           DISPLAY testvalud .
            DISPLAY MyID .
            STOP RUN.

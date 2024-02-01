@@ -1,0 +1,23 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. P0441A.
+       
+       ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION. 
+       SOURCE-COMPUTER. asus-PC.
+       OBJECT-COMPUTER. asus-PC.
+
+       DATA DIVISION. 
+       WORKING-STORAGE SECTION. 
+       01 ELE-CNT   PIC 9(5).
+       01 SUM-CUT   PIC 9(5).
+
+       PROCEDURE DIVISION.
+           MOVE 0 TO ELE-CNT
+           MOVE 0 TO SUM-CUT
+           PERFORM 100-ADD-ELE UNTIL ELE-CNT = 100.
+           DISPLAY "1+2+3+...+100 = " SUM-CUT.
+           STOP RUN.
+
+       100-ADD-ELE.
+           ADD 1 TO ELE-CNT
+           ADD ELE-CNT TO SUM-CUT.
