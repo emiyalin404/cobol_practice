@@ -8,7 +8,7 @@
 
        DATA DIVISION.                                                   資料部
        WORKING-STORAGE SECTION. 
-       01  MyName PIC A(3) VALUE 'xyz'.                                 A代表一個文字
+       01  MyName PIC A VALUE 'x'.                                      A代表一個文字
                                                                         A(3)代表
                                                                         放三個文字
        01  Amount PIC $9,999V99 VALUE 1450.99.                          9代表一個數

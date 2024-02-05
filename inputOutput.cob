@@ -20,3 +20,4 @@
            display "How old are you".
            ACCEPT Age .
            DISPLAY AGE " is too old".
+           STOP RUN .
