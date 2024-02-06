@@ -15,5 +15,6 @@
                  ELSE 
                     DISPLAY da2 '*' da1 '=' da3 ' ' WITH NO ADVANCING
                  END-IF 
-           END-PERFORM
-       END-PERFORM.
+              END-PERFORM
+           END-PERFORM.
+           STOP   RUN.
