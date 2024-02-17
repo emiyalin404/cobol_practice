@@ -12,11 +12,11 @@
        WORKING-STORAGE SECTION.
 
        01  ET-1.
-           03 FILLER         PIC X     VALUE "~".
+           03 FILLER         PIC X     VALUE X"7E".
            03 FILLER         PIC X(5)  VALUE "HW1Z1".
 
        01  ET-2.
-           03 FILLER         PIC X     VALUE "~".
+           03 FILLER         PIC X     VALUE X"7E".
            03 FILLER         PIC X(5)  VALUE "VW2Z2".
        01  HD-1.
            03 FILLER         PIC X(10).
