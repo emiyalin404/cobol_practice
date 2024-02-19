@@ -1,0 +1,1 @@
+cobc -x score.cob && ./score && cat PRINTERSCORE

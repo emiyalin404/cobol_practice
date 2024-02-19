@@ -1,0 +1,1 @@
+cobc -x movetest.cob && ./movetest

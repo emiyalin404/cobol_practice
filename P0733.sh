@@ -1,0 +1,1 @@
+cobc -x P0733.cob && ./P0733 && cat PRINTER11

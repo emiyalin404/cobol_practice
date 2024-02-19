@@ -1,0 +1,1 @@
+cobc -x compute.cob && ./compute

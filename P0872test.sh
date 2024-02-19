@@ -1,0 +1,1 @@
+cobc -x P0872test.cob && ./P0872test && cat PRINTER872TEST

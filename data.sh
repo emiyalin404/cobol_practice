@@ -1,0 +1,1 @@
+cobc -x data.cob && ./data

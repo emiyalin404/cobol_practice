@@ -1,0 +1,1 @@
+cobc -x P0751test.cob && ./P0751test && cat PRINTTEST

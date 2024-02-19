@@ -1,1 +1,1 @@
-cobc -x P0872.cob && ./P0872
+cobc -x P0872.cob && ./P0872 && cat PRINTER21

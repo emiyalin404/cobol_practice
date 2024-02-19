@@ -1,0 +1,1 @@
+cobc -x P0683nineNine.cob && ./P0683nineNine

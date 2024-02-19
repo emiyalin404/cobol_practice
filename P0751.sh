@@ -1,1 +1,1 @@
-cobc -x P0751.cob && ./P0751
+cobc -x P0751.cob && ./P0751 && cat PRINTERFILE

@@ -1,0 +1,1 @@
+cobc -x print111.cob && ./print111 && cat PRINTAA

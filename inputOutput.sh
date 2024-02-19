@@ -1,0 +1,1 @@
+cobc -x inputOutput.cob && ./inputOutput

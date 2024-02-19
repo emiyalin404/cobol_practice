@@ -28,7 +28,7 @@
            03 STUD-CHEM-SCOR    PIC 9(3)V9.
        FD  PRINFL
            DATA  RECORD   IS PRT-REC.
-       01  PRT-REC               PIC X(90).
+       01  PRT-REC               PIC X(110).
        WORKING-STORAGE SECTION.
        01  HD-1.
            03 FILLER            PIC X(21).
@@ -41,11 +41,13 @@
            03 FILLER            PIC X(9)    VALUE "頁次: ".
            03 PAGE-PL           PIC ZZ9.
        01  HD-3.
-           03 FILLER            PIC X(60)   VALUE 
-              "系級   學號    姓 名   國 文  英 文  數 學".
+           03 FILLER            PIC X(30)   VALUE 
+              "系級   學號    姓 名".
+           03 FILLER            PIC X(36)   VALUE
+              " 國 文     英 文      數 學".
            03 FILLER            PIC X(50)   VALUE
-              "  物 理   化 學   平 均   備註".
-       01  HD-4                 PIC X(79)   VALUE ALL "=".
+              "  物 理   化 學   平 均  備註".
+       01  HD-4                 PIC X(85)   VALUE ALL "=".
        01  DL.
            03 DL-CLASS.
               05 DL-DPT         PIC XX.
@@ -172,7 +174,7 @@
            ADD   1  TO PAGE-CNT
            MOVE  PAGE-CNT TO PAGE-PL
            MOVE  SPACE TO PRT-REC
-           WRITE PRT-REC  FROM  HD-1  AFTER 2  LINES
+           WRITE PRT-REC  FROM  HD-1  AFTER PAGE
            WRITE PRT-REC  FROM  HD-2  AFTER 2  LINES
-           WRITE PRT-REC  FROM  HD-3  AFTER 1  LINES
+           WRITE PRT-REC  FROM  HD-3  AFTER 2  LINES
            WRITE PRT-REC  FROM  HD-4 AFTER 1  LINES.

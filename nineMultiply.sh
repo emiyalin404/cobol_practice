@@ -1,0 +1,1 @@
+cobc -x nineMultiply.cob && ./nineMultiply

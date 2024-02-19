@@ -1,0 +1,1 @@
+cobc -x divideinto.cob && ./divideinto

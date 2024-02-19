@@ -1,0 +1,1 @@
+cobc -x TAB99.cob && ./TAB99

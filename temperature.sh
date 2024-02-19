@@ -1,0 +1,1 @@
+cobc -x temperature.cob && ./temperature

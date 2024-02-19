@@ -1,0 +1,1 @@
+cobc -x move.cob && ./move
