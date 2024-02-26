@@ -1,0 +1,1 @@
+cobc -x P0944.cob && ./P0944 && cat PRINT944

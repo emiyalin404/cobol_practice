@@ -1,0 +1,1 @@
+cobc -x P0951test.cob && ./P0951test && PRINT951TEST1

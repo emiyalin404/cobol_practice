@@ -1,0 +1,1 @@
+cobc -x P0943.cob && ./P0943 && cat PRINTER943TEST

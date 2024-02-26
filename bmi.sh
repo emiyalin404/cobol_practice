@@ -1,1 +1,0 @@
-cobc -x bmi.cob && ./bmi

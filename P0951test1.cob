@@ -3,7 +3,7 @@
        ENVIRONMENT DIVISION. 
        INPUT-OUTPUT SECTION. 
        FILE-CONTROL. 
-           SELECT   PRINTFL  ASSIGN   TO "PRINT951TEST".
+           SELECT   PRINTFL  ASSIGN   TO "PRINT951TEST1".
        DATA   DIVISION. 
        FILE SECTION. 
        FD  PRINTFL  
@@ -89,6 +89,7 @@
            IF WEEK-DAY >  7
               MOVE  1  TO WEEK-DAY
            END-IF
+
            COMPUTE  WK       =  TML-YEAR / 4
            COMPUTE  AA       =  TML-YEAR - WK * 4
            IF    AA =  0
